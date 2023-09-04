@@ -1,0 +1,23 @@
+a{text-decoration:none;
+font-style: none;
+}
+
+.text-box h3:first-of-type {
+    color:rgb(220, 134, 148)
+}
+
+#greycol{
+color:grey
+}
+
+.text-box p:last-of-type{
+    color:red
+}
+
+.text-box p:nth-of-type(2n+3) {
+    color:green
+}
+
+.text-box .yellow:last-of-type{
+    color:yellow
+}
