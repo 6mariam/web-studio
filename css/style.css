@@ -185,7 +185,16 @@
   
   .advantages-list{
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
   }
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+.advantage-list > .item {
+  flex-basis: calc((100% - 90px) / 4);
+}
   
   .advantages-title{
     margin-bottom: 10px;
